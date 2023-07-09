@@ -128,7 +128,7 @@ function App() {
           type="tel"
           placeholder="Enter your phone number"
           label="phone"
-          errormessage="Enter 10 digit numberf"
+          errormessage="Enter 10 digit number"
           onChange={onChange}
           pattern="[0-9]{10,}$"
           required={true}
