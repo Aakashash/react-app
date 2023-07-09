@@ -1,0 +1,15 @@
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+input:invalid ~ span {
+  display: block;
+}
