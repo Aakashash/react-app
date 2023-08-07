@@ -1,7 +1,6 @@
 .label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: rgb(22, 21, 22);
+  font-weight: bold;
 }
 
 span {
@@ -9,7 +8,15 @@ span {
   padding: 3px;
   color: red;
   display: none;
+  font-weight: bold;
 }
 input:invalid[focused="true"] ~ span {
   display: block;
+}
+
+.input {
+  padding: 8px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }

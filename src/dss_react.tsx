@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./dss.css";
+import "./App.css";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Form(props: any) {
   const [focused, setFocused] = useState(false);
@@ -11,8 +14,9 @@ function Form(props: any) {
 
   return (
     <div>
-      <label>{props.label}</label>
+      <label className="label">{props.label}</label> {"  "}
       <input
+        className="input"
         {...props}
         onChange={props.onChange}
         onBlur={handleFocus}
