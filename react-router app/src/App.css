@@ -1,0 +1,21 @@
+/*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*/
+
+nav {
+  background-color: aliceblue;
+  padding: 16px 32px;
+}
+nav a {
+  margin-right: 10px;
+}
+
+nav a.active {
+  background-color: aqua;
+  font-weight: bold;
+}
