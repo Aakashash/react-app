@@ -6,15 +6,17 @@ import Counter from "./Components/Counter";
 import CounterusingClass from "./Components/CounterusingClass";
 import Test from "./Test";
 import CounterMultiplereducers from "./Components/CounterMultiplereducers";
+import ThunkComp from "./Components/ThunkComp";
 
 function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Counter />
+      <ThunkComp />
+      {/*<Counter />
       <CounterusingClass />
-      {/*<Test /> */}
-      <CounterMultiplereducers />
+      <Test /> 
+      <CounterMultiplereducers />*/}
     </>
   );
 }

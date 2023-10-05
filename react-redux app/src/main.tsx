@@ -4,9 +4,11 @@ import App from "./App.tsx";
 import "./index.css";
 import { Provider } from "react-redux";
 
-import Store from "./Store";
+//import Store from "./Store";
 
-import { Sto } from "./Store";
+import Store from "./ThunkStore.tsx";
+
+// import { Sto } from "./Store";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
