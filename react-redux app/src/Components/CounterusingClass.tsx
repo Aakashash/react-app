@@ -1,8 +1,8 @@
 import React, { ReactNode } from "react";
 import { render } from "react-dom";
 import { connect } from "react-redux";
-import { decrement, increment } from "../Action";
-import Store from "../Store";
+import { decrement, increment } from "../Actions/Action";
+import Store from "../Store/Store";
 
 class CounterusingClass extends React.Component {
   constructor(props: any) {

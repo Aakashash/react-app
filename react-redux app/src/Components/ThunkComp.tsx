@@ -1,8 +1,14 @@
 import React from "react";
-import { fetcherror, fetchuserdata, fetchusers, test, lol } from "../Action";
+import {
+  fetcherror,
+  fetchuserdata,
+  fetchusers,
+  test,
+  lol,
+} from "../Actions/Action";
 import { connect } from "react-redux";
 
-import Store from "../ThunkStore";
+import Store from "../Store/ThunkStore";
 
 class ThunkComp extends React.Component {
   constructor(props: any) {

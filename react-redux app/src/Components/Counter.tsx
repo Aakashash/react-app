@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useSelector, useDispatch, useStore } from "react-redux";
-import { decrement, increment } from "../Action";
+import { decrement, increment } from "../Actions/Action";
 
 const Counter = () => {
   const data: any = useSelector((state) => state.counter);

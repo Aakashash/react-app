@@ -1,7 +1,7 @@
 import React from "react";
 
-import { add, div, mul, sub } from "../Action";
-import Store from "../Store";
+import { add, div, mul, sub } from "../Actions/Action";
+import Store from "../Store/Store";
 import { connect } from "react-redux";
 
 class CounterMulitplereducers extends React.Component {

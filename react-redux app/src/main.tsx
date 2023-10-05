@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 
 //import Store from "./Store";
 
-import Store from "./ThunkStore.tsx";
+import Store from "./Store/ThunkStore.tsx";
 
 // import { Sto } from "./Store";
 
